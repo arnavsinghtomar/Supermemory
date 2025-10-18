@@ -1,0 +1,56 @@
+# --- Python general ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Environment & Configs ---
+.env
+.env.*
+.venv/
+venv/
+ENV/
+.envrc
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Temp ---
+*.log
+*.tmp
+*.swp
+*.bak
+
+# --- Notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- Cache ---
+__cache__/
+.cache/
+*.pickle
+
+# --- Data / Private Files ---
+data/
+datasets/
+*.csv
+*.xlsx
+*.json
+
+# --- LangChain / Chroma local stores ---
+chroma/
+index/
+db/
+storage/
+memory/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
